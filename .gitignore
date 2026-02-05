@@ -1,0 +1,160 @@
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Visual Studio
+.vs/
+*.user
+*.VC.db
+*.VC.VC.opendb
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+out/
+*.exe
+*.dll
+*.lib
+*.so
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+
+# Rider IDE
+.idea/
+*.sln.iml
+*.dotCover
+
+# Entity Framework
+Migrations/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.user
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+*~
+*.swp
+*.swo
+*.swn
+*.tmp
+*.*~
+
+# OS files
+.DS_Store
+Thumbs.db
+*.lnk
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Node modules (para qualquer frontend integrado)
+node_modules/
+dist/
+
+# IDE
+.project
+.classpath
+.c9/
+*.jdi
+
+# Angular
+.angular/
+
+# Testing
+TestResults/
+coverage/
+*.trx
+
+# Resharper
+.resharper
+*.resharper
+*.resharper.user
+
+# AppSettings local
+appsettings.Local.json
+
+# Build folders specific to .NET
+.build/
+artifacts/
+
+# Docker
+.docker/
+
+# Package management
+packages/
+
+# Custom build artifacts
+publish/
+PublishProfiles/
+
+# Certificate files (se houver)
+*.pfx
+*.pem
+
+# Database files
+*.mdf
+*.ldf
+*.ndf
+
+# SSL/TLS certificates
+*.crt
+*.key
+
+# Backup files
+*.bak
+*.backup
+
+# IDE-specific
+*.vbproj.user
+*.csproj.user
+
+# Visual Studio Cache
+.vs/
+.vscode/
+
+# macOS
+.AppleDouble
+.LSOverride
+
+# Linux
+.Trash-*/
+
+# Windows
+desktop.ini
+$RECYCLE.BIN/
+
+# NPM
+.npmrc
+
+# Yarn
+.yarnrc
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Roslyn analyzers
+.editorconfig.user
+
+# Git
+.gitrepo/
+
+# Misc
+.DS_Store
+*.orig

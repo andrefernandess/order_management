@@ -1,0 +1,12 @@
+namespace OrderManagement.Domain.Interfaces.Repositories;
+
+public interface IUnitOfWork : IDisposable
+{
+    IOrderRepository Orders { get; }
+    ICustomerRepository Customers { get; }
+    
+    Task<int> SaveChangesAsync(CancellationToken ct = default);
+    Task BeginTransactionAsync(CancellationToken ct = default);
+    Task CommitTransactionAsync(CancellationToken ct = default);
+    Task RollbackTransactionAsync(CancellationToken ct = default);
+}
