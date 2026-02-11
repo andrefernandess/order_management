@@ -38,7 +38,7 @@ Um sistema moderno de gerenciamento de pedidos construído com .NET 8 e arquitet
 ### 1. Clonar o repositório
 
 ```bash
-git clone <url-do-repositorio>
+git clone git@github.com:andrefernandess/order_management.git
 cd OrderManagement
 ```
 
